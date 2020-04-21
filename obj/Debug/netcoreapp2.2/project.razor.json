@@ -2961,8 +2961,23 @@
   "RootNamespace": "ASPIntro",
   "Documents": [
     {
+      "FilePath": "/Users/cthulhu/Documents/Dojo/C#/ASP.NET/ASPIntro/Views/Home/Destination.cshtml",
+      "TargetPath": "Views\\Home\\Destination.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/cthulhu/Documents/Dojo/C#/ASP.NET/ASPIntro/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/cthulhu/Documents/Dojo/C#/ASP.NET/ASPIntro/Views/Home/index.cshtml",
       "TargetPath": "Views\\Home\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/cthulhu/Documents/Dojo/C#/ASP.NET/ASPIntro/Views/Home/Register.cshtml",
+      "TargetPath": "Views\\Home\\Register.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -1,3 +1,10 @@
+@* @model ASPIntro.Models.User *@
+
+@* or you can use the following two together *@
+
+@* @using ASPIntro.Models *@
+@model HomePage
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,25 +14,21 @@
     <link rel="stylesheet" href="~/style.css">
 </head>
 <body>
-    <h1 class="red">Hello World</h1>
+    <h1 class="red">Hello @Model.Tourist.FirstName @Model.Tourist.LastName</h1>
 
-    @{
-        string[] travelDestinations = new string[]
+    <h2 class="red">Hello @Model.Tourist.FullName()</h2>
+
+    <ul>
+        @foreach (Destination destination in Model.TravelDestinations)
         {
-            "Longyearbyen",
-            "Solovetsky Islands",
-            "Socotra",
-            "Bhutan",
-        };
-    }
+                <li>
+                    <a href="/travel/@destination.Name">@destination.Name</a>
+                </li>
+        }
+    </ul>
 
-    @foreach (string item in travelDestinations)
-    {
-            <li>
-                <a href="/travel/@item">@item</a>
-            </li>
-    }
-
-    <form action=""></form>
+    <div>
+        <a href="/register">Register</a>
+    </div>
 </body>
 </html>

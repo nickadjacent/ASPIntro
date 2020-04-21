@@ -21,3 +21,6 @@
 /Users/cthulhu/Documents/Dojo/C#/ASP.NET/ASPIntro/obj/Debug/netcoreapp2.2/ASPIntro.RazorTargetAssemblyInfo.cs
 /Users/cthulhu/Documents/Dojo/C#/ASP.NET/ASPIntro/obj/Debug/netcoreapp2.2/ASPIntro.Views.pdb
 /Users/cthulhu/Documents/Dojo/C#/ASP.NET/ASPIntro/obj/Debug/netcoreapp2.2/ASPIntro.csproj.CopyComplete
+/Users/cthulhu/Documents/Dojo/C#/ASP.NET/ASPIntro/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/Users/cthulhu/Documents/Dojo/C#/ASP.NET/ASPIntro/obj/Debug/netcoreapp2.2/Razor/Views/Home/Destination.g.cshtml.cs
+/Users/cthulhu/Documents/Dojo/C#/ASP.NET/ASPIntro/obj/Debug/netcoreapp2.2/Razor/Views/Home/Register.g.cshtml.cs
